@@ -1,6 +1,6 @@
 /*
  * File: 9-print_comb.c
- * Auth: Ewket abyu
+ * Auth: Ewket Abyu
  */
 
 #include <stdio.h>
@@ -28,4 +28,3 @@ int main(void)
 
 	return (0);
 }
-
