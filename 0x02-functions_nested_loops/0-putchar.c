@@ -1,19 +1,11 @@
-#include "main.h"
-/**
- * main - Entry point
+#include <unistd.h>
+/*
  *
- * Return: Always 0 (Success)
  */
 int main(void)
 {
-char *letter = "_putchar"
+	write(1, "_putchar\n", 9);
+	
+	return (0);
 
-while (*letter)
-{
-_putchar(*letter);
-letter++
-}
-_putchar('\n');
-
-return (0);
 }
