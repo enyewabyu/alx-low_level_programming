@@ -6,14 +6,14 @@
  */
 int main(void)
 {
-	char *letter = "_putchar"
+char *letter = "_putchar"
 
-	while (*letter)
-	{
-		_putchar(*letter);
-		letter++;
-	}
-	_putchar('\n');
+while (*letter)
+{
+_putchar(*letter);
+letter++
+}
+_putchar('\n');
 
-	return (0);
+return (0);
 }
