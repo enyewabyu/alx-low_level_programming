@@ -1,9 +1,19 @@
-#include <stdio.h>
-	/*print out " _putchar" on the screen*/
+#include "main.h"
+/**
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
-	char _putchar;
+	char *letter = "_putchar"
 
-	putchar("_putchar\n");
-return (0);
+	while (*letter)
+	{
+		_putchar(*letter);
+		letter++;
+	}
+	_putchar('\n');
+
+	return (0);
 }
