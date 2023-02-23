@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _islower - found the lowercase characters.
+ * _isupper - found the lowercase characters.
  *
  * @c: c is the variable for the program.
  *
