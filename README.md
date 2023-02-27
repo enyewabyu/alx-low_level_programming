@@ -25,7 +25,7 @@ Give examples
 ## Installation
 In your terminal, git clone the directory with the following command:
 
-git clone https://github.com/AndresSern/holberton-system_engineering-devops.git/
+git clone https://github.com/enyewabyu/alx-low_level_programming.git
 
 ## Usage
 
