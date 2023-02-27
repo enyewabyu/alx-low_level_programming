@@ -1,7 +1,9 @@
-<<<<<<< HEAD
-1ST C PROGRAMMING 
-0x00. c - hello, world
-=======
-alx-low_level_programming
-my first c program language 
->>>>>>> 63627fab324b20e94d12e197f47e40e5cbf524d8
+## Low Level Programming
+# Introduction
+## Description About the Directories
+DIRECTORY|DESCRIPCION|README|
+---------|-----------|------|
+|0x00-hello_world|	|README.md|
+-----------------|------|---------|
+|0x01-variables_if_else_while|	|README.md|
+-----------------------------|--|-----------|
