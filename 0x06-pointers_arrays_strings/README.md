@@ -28,3 +28,55 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 * In the following examples, the main.c files are shown as examples. You can use them to test your functions, but you don’t have to push them to your repo (if you do we won’t take them into account). We will use our own main.c files at compilation. Our main.c files might be different from the one shown in the examples
 * The prototypes of all your functions and the prototype of the function _putchar should be included in your header file called main.h
 * Don’t forget to push your header file
+
+
+#Tasks
+
+
+** 0. strcat **   
+                                                                                                          mandatory
+Write a function that concatenates two strings.
+
+* Prototype: char *_strcat(char *dest, char *src);
+* This function appends the src string to the dest string, overwriting the terminating null byte (\0) at the end of dest, and then adds a terminating null byte
+* Returns a pointer to the resulting string dest
+FYI: The standard library provides a similar function: strcat. Run man strcat to learn more.
+
+> julien@ubuntu:~/0x06$ cat 0-main.c
+#include "main.h"
+#include <stdio.h>
+
+/**
+ * main - check the code
+ *
+ * Return: Always 0.
+ */
+int main(void)
+{
+    char s1[98] = "Hello ";
+    char s2[] = "World!\n";
+    char *ptr;
+
+    printf("%s\n", s1);
+    printf("%s", s2);
+    ptr = _strcat(s1, s2);
+    printf("%s", s1);
+    printf("%s", s2);
+    printf("%s", ptr);
+    return (0);
+}
+julien@ubuntu:~/0x06$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 0-main.c 0-strcat.c -o 0-strcat
+julien@ubuntu:~/0x06$ ./0-strcat 
+Hello 
+World!
+Hello World!
+World!
+Hello World!
+> julien@ubuntu:~/0x06$ 
+
+
+** Repo:**
+
+* GitHub repository: alx-low_level_programming
+* Directory: 0x06-pointers_arrays_strings
+* File: 0-strcat.c
