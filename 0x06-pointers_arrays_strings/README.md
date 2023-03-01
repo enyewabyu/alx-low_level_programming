@@ -30,11 +30,10 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 * Don’t forget to push your header file
 
 
-#Tasks
+# Task
 
-
-** 0. strcat **   
-                                                                                                          mandatory
+**0. strcat**   
+                                                                                                         mandatory
 Write a function that concatenates two strings.
 
 * Prototype: char *_strcat(char *dest, char *src);
@@ -42,7 +41,8 @@ Write a function that concatenates two strings.
 * Returns a pointer to the resulting string dest
 FYI: The standard library provides a similar function: strcat. Run man strcat to learn more.
 
-``julien@ubuntu:~/0x06$ cat 0-main.c
+```
+julien@ubuntu:~/0x06$ cat 0-main.c
 #include "main.h"
 #include <stdio.h>
 
@@ -72,11 +72,10 @@ World!
 Hello World!
 World!
 Hello World!
-julien@ubuntu:~/0x06$``
+julien@ubuntu:~/0x06$ 
 
-
+```
 **Repo:**
-
 * GitHub repository: alx-low_level_programming
 * Directory: 0x06-pointers_arrays_strings
 * File: 0-strcat.c
