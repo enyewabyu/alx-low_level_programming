@@ -108,6 +108,81 @@ You can now type betty <filename> to run the Betty linter!
     
 Great! You've completed the quiz successfully! Keep going! (Show quiz)
     
+    ** Question #0**
+In which category belongs the C programming language?
+
+
+- [x] Compiled language
+
+- [ ] Interpreted language
+    
+
+**Question #1**
+What is the common extension for a C header file?
+
+
+- [ ] .ch
+
+
+- [x] .h
+
+
+- [ ] .hpp
+
+
+- [ ] .header
+
+**Question #2**
+What is the common extension for a C source file?
+
+
+- [ ] .py
+
+
+- [ ] .cpp
+
+
+- [x] .c
+
+
+- [ ] .txt
+
+**Question #3**
+What are the different steps to form an executable file from C source code
+
+
+- [ ] Preprocessing and compilation
+
+
+- [ ] Interpretation, assembly and compilation
+
+
+- [ ] Compilation and linking
+
+
+- [x] Preprocessing, compilation, assembly, and linking
+
+
+- [ ] Interpretation, compilation and assembly
+
+**Question #4**
+Which of the following are both valid comment syntaxes in ANSI C, and Betty-compliant?
+
+
+- [ ] `` /* Comment /* nested */ */ ``
+
+- [ ] `` /*
+Comment
+*/ ``
+
+- [ ] `` # Comment ``
+
+- [x] ![image](https://user-images.githubusercontent.com/124665905/225751631-0c3a6ed4-d652-40df-af10-d6ae1a95bf83.png)
+
+- [ ] `` // Comment ``
+
+- [x] `` /* Comment */ ``
+    
 # Tasks
     
     
