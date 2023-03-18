@@ -1,4 +1,4 @@
-# 0x01. C - Variables, if, else, while
+# 0x01. C - `#ffffff`Variables, if, else, while
 
 ## Resources
 **Read or watch:**
