@@ -80,7 +80,7 @@ In the main.c file, on what line is the first error that the compiler returns?
 - [ ] 7
 
 
-- [ ] 11
+- [x] 11
 
 
 - [ ] 9
@@ -134,7 +134,7 @@ carrie@ubuntu:/debugging$
 - [ ] We want to compare j so we need an if statement before j == j - 1
 
 
-- [ ] We want to assign j a new value, not compare it, so it should be j = j - 1 instead of j == j - 1
+- [x] We want to assign j a new value, not compare it, so it should be j = j - 1 instead of j == j - 1
 
 
 - [ ] We don’t need to assign a new value to j because it doesn’t do anything
@@ -174,13 +174,13 @@ carrie@ubuntu:/debugging$ ./a.out
 ^Ccarrie@ubuntu:/debugging$
 
 ````
-- [ ] j never increments so it is always going to print 0
+- [x] j never increments so it is always going to print 0
 
 
 - [ ] j is always equal to i so the loop will never end
 
 
-- [ ] j never increments so it will always be less than 10
+- [x] j never increments so it will always be less than 10
 
 ## Question #3
 This code doesn’t work as intended.
@@ -258,11 +258,11 @@ int main(void)
 
 - [ ] A printf statement shows that there is an infinite loop in the code
 
-- [ ] printf statements shows that break will cause “For loop exited” to print, indicating that the even number is never printed
+- [x]  printf statements shows that break will cause “For loop exited” to print, indicating that the even number is never printed
 
 - [ ] A printf statement shows exactly how many times the loop executes
 
-- [ ] A printf statement shows when the for loop is finished
+- [x] A printf statement shows when the for loop is finished
 
 # Tasks
 
