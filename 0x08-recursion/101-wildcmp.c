@@ -93,5 +93,3 @@ int wildcmp(char *s1, char *s2)
 
 	return (wildcmp(++s1, ++s2));
 }
-Footer
-© 2023 GitHub, Inc.
