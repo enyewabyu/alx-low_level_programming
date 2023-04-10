@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * main - check the code for ALX School students.
+ * main - check the code
  *
  * Return: Always 0.
  */
@@ -36,5 +36,3 @@ int main(void)
     printf("%d\n", r);
     return (0);
 }
-Footer
-© 2023 GitHub, Inc.
